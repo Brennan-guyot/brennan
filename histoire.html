@@ -1,0 +1,249 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Michael Jackson</title>
+
+    <style>
+        /* Style général */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #111;
+            background-image: linear-gradient(180deg, #d12626, #121212 500px);
+            color: white;
+            text-align: center;
+        }
+
+        /* En-tête */
+        header {
+            background-color: #cb4949;
+            padding: 20px;
+            border-bottom: 3px solid gold;
+        }
+
+        /* Menu */
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 25px;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: gold;
+        }
+
+        /* Images du haut */
+        .images-haut {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            list-style: none;
+            padding: 20px;
+            margin: 0;
+        }
+
+        .images-haut img {
+            width: 250px;
+            height: 300px;
+            max-width: 100%;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        /* Contenu principal */
+        main {
+            max-width: 1000px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        h1 {
+            color: gold;
+            font-size: 36px;
+        }
+
+        h2 {
+            color: #f5d76e;
+        }
+
+        p {
+            line-height: 1.8;
+        }
+
+        section {
+            background-color: #111;
+            padding: 20px;
+            margin-bottom: 25px;
+            border-radius: 12px;
+            border: 1px solid #333;
+        }
+
+        /* Listes des chansons */
+        section ul {
+            display: inline-block;
+            text-align: left;
+            line-height: 1.8;
+        }
+
+        /* Pied de page */
+        footer {
+            background-color: #cb4949;
+            padding: 20px;
+            border-top: 3px solid gold;
+        }
+
+        /* Adaptation aux petits écrans */
+        @media (max-width: 600px) {
+            .images-haut img {
+                width: 100%;
+                height: auto;
+            }
+
+            h1 {
+                font-size: 28px;
+            }
+
+            main {
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="album.html">Album</a></li>
+                <li><a href="histoire.html">Histoire</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <ul class="images-haut">
+            <li>
+                <img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQN6fP2P2ZbbAlYNUetw3XThOSYZdMnYsGHlTm2hyeqnw&s=10"
+                    alt="Michael Jackson, photo 1">
+            </li>
+
+            <li>
+                <img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk5iISKLfGbYZFFoK5BF23Fwoy4DCeIEYnA0vu2J0IE5HPmBQrvN8Rjnbr5QHnqkmxtmA4WOsuW1IZRC9FoNTz6uDA7FwjlEzaqlUV2YxR&s=10"
+                    alt="Michael Jackson, photo 2">
+            </li>
+
+            <li>
+                <img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjBDqd4j_xwGWzxjLRhYzeuQEMIrkjyJvnljL6PLXhxlEJO8FBu5Vy6-er-qJjsSCEtWCmjaHyPfSmtHMStTGOuK410LbXWKnyv7sJwXlg&s=10"
+                    alt="Michael Jackson, photo 3">
+            </li>
+
+            <li>
+                <img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRq8dKoV2xrL5hzpgfApESa9uFw3vflPO-1vRUNbiUO8A&s"
+                    alt="Michael Jackson, photo 4">
+            </li>
+        </ul>
+
+        <h1>Michael Jackson</h1>
+        <p>Le Roi de la Pop (1958 - 2009)</p>
+
+        <section>
+            <h2>1. Qui était-il ?</h2>
+            <p>
+                Michael Jackson était un chanteur et danseur américain,
+                né le 29 août 1958 à Gary, aux États-Unis.
+                Il est surnommé le Roi de la Pop grâce à son immense succès.
+            </p>
+        </section>
+
+        <section>
+            <h2>2. Son enfance</h2>
+            <p>
+                Il commence sa carrière très jeune avec ses frères
+                dans le groupe The Jackson 5. Il devient ensuite
+                un artiste solo célèbre dans le monde entier.
+            </p>
+        </section>
+
+        <section>
+            <h2>3. Ses plus grands succès</h2>
+            <p>
+                Son album Thriller, sorti en 1982, est l'un des albums
+                les plus vendus de l'histoire. Ses chansons les plus
+                connues sont :
+            </p>
+
+            <ul>
+                <li>Billie Jean</li>
+                <li>Thriller</li>
+                <li>Beat It</li>
+                <li>Bad</li>
+                <li>Smooth Criminal</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>4. Sa danse</h2>
+            <p>
+                Michael Jackson est célèbre pour son Moonwalk,
+                une danse qui donne l'impression de glisser vers
+                l'arrière. Il est aussi connu pour ses clips
+                spectaculaires et ses vêtements emblématiques.
+            </p>
+        </section>
+
+        <section>
+            <h2>5. Sa mort</h2>
+            <p>
+                Michael Jackson est mort le 25 juin 2009 à Los Angeles,
+                à l'âge de 50 ans. Sa disparition a bouleversé
+                ses fans dans le monde entier.
+            </p>
+        </section>
+
+        <section>
+            <h2>6. Conclusion</h2>
+            <p>
+                Michael Jackson a marqué l'histoire de la musique
+                grâce à sa voix, ses danses et ses chansons.
+                Aujourd'hui encore, il reste une icône mondiale
+                de la pop.
+            </p>
+        </section>
+
+    </main>
+
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="album.html">Album</a></li>
+                <li><a href="histoire.html">Histoire</a></li>
+            </ul>
+        </nav>
+    </footer>
+
+</body>
+</html>
