@@ -14,13 +14,70 @@
             font-family: Arial, sans-serif;
             margin: 0;
             background-color: #111;
-            background-image: linear-gradient(180deg, #d12626, #121212 500px);
+            background-image: linear-gradient(180deg, hsl(0, 69%, 48%), #121212 500px);
             color: white;
             text-align: center
       }
 
 
 
+
+
+      /* En-tête et menu */
+        header {
+            background-color: hsl(0, 69%, 48%);
+            padding: 20px;
+            border-bottom: 3px solid gold;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 25px;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: gold;
+        }
+
+
+
+        /* bas du menu */
+        footer {
+            background-color: #3d2c2ce7;
+            padding: 20px;
+            border-bottom: 3px solid gold;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 25px;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: gold;
+        }
 
 </style>
 
@@ -44,7 +101,7 @@
 
         <section>
              <article>
-               <img src="https://images.openai.com/static-rsc-4/R6HdO5xK2ysEBQEOM3uHjXkGjrCVLaxQgP5ok7ddIFGgfmKuJFzULib0aS990KTUbMlMGj5BIvSvNrzsIqTnLxh_y5j9HYjs08cyuCjuSfRH8H072zStY9ni2nrFc0P5KH_LhkSfB_hUpSFtrRy83gQtaS9leuZ7RtEI9dZOfv4Im1FlgXUW4T7ffC_3QKDj?purpose=fullsize"alt=Michael Jackson>
+               <img src="https://images.openai.com/static-rsc-4/R6HdO5xK2ysEBQEOM3uHjXkGjrCVLaxQgP5ok7ddIFGgfmKuJFzULib0aS990KTUbMlMGj5BIvSvNrzsIqTnLxh_y5j9HYjs08cyuCjuSfRH8H072zStY9ni2nrFc0P5KH_LhkSfB_hUpSFtrRy83gQtaS9leuZ7RtEI9dZOfv4Im1FlgXUW4T7ffC_3QKDj?purpose=fullsize" alt="Michael Jackson" width="200" height="200">
                   <div>
                      <h3>Thriller</h3>
                      <h4>1982</h4>
@@ -52,7 +109,7 @@
              </article>
 
              <article>
-               <img src="https://images.openai.com/static-rsc-4/KCsYnZvI6PyT3mY965uJ1nSauTBG0M7_ts634ytnNX-oHMBiT7wbAmdUzYH6-mroowe-WfFmHE1HVZNuKsWf7BqYvX7iA2gSPLx4nuFX0MmBlvFEMQOsMaVkEjkUG_r4Njg5v4nPmLuZHJVXKNhkduj7r-QkWnrLUOyODooy1qhE89G-H8Vwq_S2SLNzxTZZ?purpose=fullsize"alt=Michael Jackson>
+               <img src="https://images.openai.com/static-rsc-4/KCsYnZvI6PyT3mY965uJ1nSauTBG0M7_ts634ytnNX-oHMBiT7wbAmdUzYH6-mroowe-WfFmHE1HVZNuKsWf7BqYvX7iA2gSPLx4nuFX0MmBlvFEMQOsMaVkEjkUG_r4Njg5v4nPmLuZHJVXKNhkduj7r-QkWnrLUOyODooy1qhE89G-H8Vwq_S2SLNzxTZZ?purpose=fullsize" alt="Michael Jackson" width="200" height="200">
                   <div>
                      <h3>Off the Wall</h3>
                      <h4>1979</h4>
@@ -60,7 +117,7 @@
              </article>
 
              <article>
-               <img src="https://images.openai.com/static-rsc-4/UThNsQUKuJrbl_xnVcDB2sUoBkBY0zA9wC-RZntPuF0aRY3qyUyNbbbXs88q_QVcNwSkUvhCgHVLQnNfpjr52OWaIqC4660CqaF5gAnrMjuGEEmzEsnzPCixbf04MkLBCIc6c3fJg0rMAm1K2HhypmQJ5VmkiI9vRJ8gyQPG7PVKUsEUpG6mrGO5JYI6E3Ex?purpose=fullsize"alt=Michael Jackson>
+               <img src="https://images.openai.com/static-rsc-4/UThNsQUKuJrbl_xnVcDB2sUoBkBY0zA9wC-RZntPuF0aRY3qyUyNbbbXs88q_QVcNwSkUvhCgHVLQnNfpjr52OWaIqC4660CqaF5gAnrMjuGEEmzEsnzPCixbf04MkLBCIc6c3fJg0rMAm1K2HhypmQJ5VmkiI9vRJ8gyQPG7PVKUsEUpG6mrGO5JYI6E3Ex?purpose=fullsize" alt="Michael Jackson" width="200" height="200">
                   <div>
                      <h3>Dangerous</h3>
                      <h4>1991</h4>
@@ -68,7 +125,7 @@
              </article>
 
              <article>
-               <img src="https://images.openai.com/static-rsc-4/n2WLoA3hRHChwDeThO7-Wtqkm6U3UotumI3mrz3DwgK_guAyq6aIuDD3dyACMSkOngDWfK3QykYbTDUO6oBQpwupF9tM0Q8L-1xAUY-0Y5feX2hY030c2Bb9nrfxQwPENmVc3RKfY4MgDqzfCm3pW_zAv6dkgRUe3oWTg7B0i-X_b2ae8enJ55TNZJ9bC84f?purpose=fullsize"alt=Michael Jackson>
+               <img src="https://images.openai.com/static-rsc-4/n2WLoA3hRHChwDeThO7-Wtqkm6U3UotumI3mrz3DwgK_guAyq6aIuDD3dyACMSkOngDWfK3QykYbTDUO6oBQpwupF9tM0Q8L-1xAUY-0Y5feX2hY030c2Bb9nrfxQwPENmVc3RKfY4MgDqzfCm3pW_zAv6dkgRUe3oWTg7B0i-X_b2ae8enJ55TNZJ9bC84f?purpose=fullsize" alt="Michael Jackson" width="200" height="200">
                   <div>
                      <h3>Bad</h3>
                      <h4>1987</h4>
